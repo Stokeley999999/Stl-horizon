@@ -9,10 +9,12 @@
 .section1 h1{
     font-size: 5vw;
     color: #3c3968;
+    padding-top: 1vw;
 }
 .section1 p{
     font-size:1.3vw;
     color: #a8a7a7;
+    padding-top: 1.3vw;
 }
 .meow{
     background-color:#F8FAFC;
@@ -23,6 +25,7 @@
     flex-wrap: wrap;
     margin-left:9vw;
     gap: 2.2vw 2.2vw;
+    margin-top: 2vw;
 }
 .map{
     padding-block-start: 0vw;
@@ -82,4 +85,27 @@
   }
   #country{
       margin-left: 10px;
+  }
+  .section2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 124px;
+  }
+  .bey{
+    background-color: #fff;
+    margin: 14px;
+    height:230px;
+    width: 370px;
+    box-shadow: 0 0 2px 0 #a8a7a7;
+    border: 0;
+    border-radius: 22px;
+    margin-top: 90px;
+  }
+  .bey p{
+    text-align: center;
+    margin-top: 1.9vw;
+  }
+  .bey .icon{
+    margin-left: 169px;
+    margin-top: 80px;
   }
