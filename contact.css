@@ -17,3 +17,69 @@
 .meow{
     background-color:#F8FAFC;
 }
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left:9vw;
+    gap: 2.2vw 2.2vw;
+}
+.map{
+    padding-block-start: 0vw;
+    padding-block-end: 0vw;
+    padding-inline-start: 0vw;
+    padding-inline-end: 0vw;
+}
+.contact-form{
+    background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ box-shadow: 0 0 2px 0 #a8a7a7;
+  border-radius: 22px;
+  width: 31vw;
+  padding:2vw;
+}
+.form-row {
+    display: flex;
+  }
+  
+  .form-column {
+    padding:1vw;
+    padding-left: 1.2vw;
+  }
+  
+  label, input, select, textarea {
+    display: block;
+    margin-bottom:  10px;
+    
+  }
+  input{
+      padding: 10px;
+      width: 170px;
+  }
+  input[type="submit"] {
+    margin-top:20px;
+    width: 90px;
+    padding: 7px;
+    margin-left: 19px;
+    border: 0;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+  input[type="email"]{
+      width:373px;
+  }
+  input[type="number"]{
+      width: 373px;
+  }
+  select{
+      padding: 10px;
+      width: 170px;
+  }
+  #country{
+      margin-left: 10px;
+  }
