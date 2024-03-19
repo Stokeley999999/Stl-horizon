@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.section1{
+    text-align: center;
+}
+.section1 h1{
+    font-size: 5vw;
+    color: #3c3968;
+}
+.section1 p{
+    font-size:1.3vw;
+    color: #a8a7a7;
+}
+.meow{
+    background-color:#F8FAFC;
+}
