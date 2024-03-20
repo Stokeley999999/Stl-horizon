@@ -99,6 +99,7 @@ body{
     
 }
 h4{
+    color: azure;
     text-align: center;
     font-size: x-large;
 }
@@ -153,6 +154,8 @@ color: #fff;
 }
 .left-side button{
 background-color: #353535;
+float: left;
+float: right;
 height: 55px;
 border: none;
 font-size: 16px;
