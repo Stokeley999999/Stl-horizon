@@ -3,6 +3,9 @@
     padding:0;
     box-sizing: border-box;
 }
+.body{
+    font-family: "Space Grotesk", sans-serif;
+}
 .nav{
     display: flex;
     flex-direction: row;
@@ -35,7 +38,7 @@
     padding-right: 2.5vw;
     margin-left: 0.2vw;
     padding-top: 3.9vw;
-    font-family: 'Space Grotesk' sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font: lighter;
     line-height: 1;
     font-weight: 500;
@@ -47,6 +50,7 @@
 a{
     text-decoration: none;
     color: #000000;
+
 }
 
 #sp{
@@ -115,7 +119,6 @@ a{
   }
   
   label, input, select, textarea {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: block;
     margin-bottom: 10px;    
   }
