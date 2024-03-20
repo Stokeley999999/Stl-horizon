@@ -132,3 +132,108 @@ h6{
     font-size: xx-large;
     padding-top:20px ;
 }
+#request{
+    padding: 10px 5%;
+width: 100%;
+height: 70vh;
+background-color: #353535;
+display: flex;
+justify-content: space-between;
+color: #fff;
+}
+.left-side img{
+    padding-left: 150px;
+    padding-top: 90px;
+}
+.left-side p{
+    margin-top: 10px;
+    padding-left: 177px;
+    font-family: sans-serif;
+    color:rgb(186, 186, 186);
+}
+.left-side button{
+background-color: #353535;
+height: 55px;
+border: none;
+font-size: 16px;
+box-shadow: 4px 4px rgba(0,0,0,.3), -4px -4px rgba(0,0,0,.3);
+color: rgb(186, 186, 186);
+border-radius: 5px;
+padding-left: 150px;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+.right-side{
+    display: flex;
+    font-size: 15px;
+    margin-top: 5%;
+}
+.right-side div{
+    margin: 35px;
+}
+.right-side h4{
+    margin-bottom: 20%;
+}
+.right-side p{
+    line-height: 20px;
+    color: rgb(143, 140, 140);
+    padding-right: 130px;
+}
+.horizontal-line{
+    width: 1px;
+    background-color: darkgray;
+    margin-top: 30px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    width: 100%;
+    background-color: #353535;
+    color: white;
+    height: 200px;
+}
+.icons i{
+    margin: 10px;
+    color: black;
+    padding: 5px;
+}
+hr{
+    border: 0.01px solid;
+    color: rgb(75, 75, 75);
+}
+
+.map-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form1{
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    margin-left: 20px;
+
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 90px 0;
+
+}
+
+.box1 ,.box2, .box3{
+    background-color:#fff;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 500px;
+    padding: 35px;
+    width: 350px;
+    text-align: center;
+}
