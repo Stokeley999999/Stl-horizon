@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .section1{
     text-align: center;
@@ -94,8 +95,8 @@
   .bey{
     background-color: #fff;
     margin: 14px;
-    height:230px;
-    width: 370px;
+    height:227.77px;
+    width: 333.94px;
     box-shadow: 0 0 2px 0 #a8a7a7;
     border: 0;
     border-radius: 22px;
@@ -104,8 +105,62 @@
   .bey p{
     text-align: center;
     margin-top: 1.9vw;
+    font-size: 1.3vw;
+    color: #a8a7a7;
   }
   .bey .icon{
     margin-left: 169px;
     margin-top: 80px;
   }
+  .card4 p{
+    text-align: center;
+    font-size: 39px;
+  }
+  #l{
+    margin-left: 660px;
+    padding: 16px;
+    border-radius: 23px;
+    color: #fff;
+    background-color: #ff0000;
+  }
+  .section9{
+    background-color: #353434;
+    margin-top: 170px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.section9 h5{
+  color: #fff;
+}
+.end1{
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.mo{
+  padding-left: 320px;
+}
+.s{
+  margin: 30px;
+  color: #a8a7a7;
+  font-size: 19px;
+}
+.app{
+    background-color: #353434;   
+}
+#apps{
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
+    border-radius:0.35vw;
+    width:12vw;
+    background-color: #353434;
+    border-color: #353434;
+    color: #a8a7a7;
+    font-size:18px;
+    font-weight: 600;
+    margin-top: 1.5vw;
+}
+.head{
+    margin-left: 10vw;
+}
