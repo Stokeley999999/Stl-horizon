@@ -1,0 +1,134 @@
+.header{
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(233, 231, 231);
+}
+.navbar{
+	background-color: white;
+	font-family:calibri;
+	height: 140px;
+    width: 100%;
+
+}
+.navdiv{
+	display: flex;
+}
+.logo {
+	
+	line-height: 65px;
+	padding-left: 50px;
+}
+
+.navbar li{
+	list-style: none;
+}
+.navbar li a{
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 70px;
+
+}
+
+.navbar ul{
+	display: flex;
+	line-height: 70px;
+	padding-left: 300px;
+
+}
+.footer{
+    width: 102%;
+    background-color: rgb(31, 31, 31);
+    margin-top: 25px;
+}
+
+.one{display: flex;background-color: aliceblue;}
+.two{display: flex;background-color: aliceblue;}
+.two{display: flex; background-color: aliceblue}
+.three{display: flex;}
+.four{display: flex;}
+.eleven{
+    height: 200px;
+    width: 400px;
+    background-color: grey;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5%;
+}
+.twenty{
+    height: 200px;
+    width: 400px;
+    background-color: grey;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5%;
+}
+.thirty{
+    height: 300px;
+    width: 400px;
+    background-color: grey;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5%;
+}
+.forty{
+    height: 300px;
+    width: 400px;
+    background-color: grey;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5%;
+}
+.five{
+    background-color:aliceblue;
+    text-align: center;
+    height: 150px;
+  
+}
+.six{
+    background-color:skyblue;
+    text-align: center;
+    height: 100px;
+    width: 600px;
+    margin-left: 300px;
+    border-radius: 5%;
+    
+}
+h4{
+    text-align: center;
+    font-size: x-large;
+}
+button{
+    background-color: red;
+    color:white;
+    border-radius: 5%;
+}
+
+.first{
+    display: flex;
+    background-color:aliceblue;
+    border-radius: 0px 0px 20px 0px;
+    
+}
+.image{
+    background-color: aliceblue;
+    text-align: center;
+}
+h2{
+   
+    font-size: x-large;
+}
+.main{
+    background-color: aliceblue;
+}
+h5{
+    font-size: medium;
+}
+h6{
+    font-size: xx-large;
+    padding-top:20px ;
+}
