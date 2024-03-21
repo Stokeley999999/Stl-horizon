@@ -11,7 +11,8 @@ body{
     box-sizing: border-box;
     margin: 0vw;
     padding: 0vw;
-    width: 100%;   
+    width: 100%; 
+    font-family: "Poppins", sans-serif;
     
 }
 #cut-div {
@@ -59,28 +60,31 @@ main{
 
 .links li{
     list-style-type: none;
-    color: white;
     padding-right: 2.5vw;
     margin-left: 0.2vw;
     padding-top: 3.9vw;
-    font-family: 'Poppins'sans-serif;
+    font-family: "Space Grotesk" sans-serif;
     font: lighter;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     font-stretch: wider;
     letter-spacing: 1px;
 }
-
+.links li a{
+    text-decoration: none;
+    color: white;
+}
 #sp{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     border: 0vw;
     height: 3vw;
-    font-size: 1.2vw;
+    border-radius: 0.2vw;
+    font-size: 1.3vw;
     font-weight: 300;
     margin-top: 3vw;
     margin-left: 1.6vw;
-    padding: 0.7vw 1vw 1vw 1vw;
+    padding: 0.8vw 1vw 1vw 1vw;
 }
 .mains1{
     width: 100%;
@@ -93,11 +97,11 @@ main{
 #sq{
     border: 0vw;
     height: 3.5vw;
-    font-size: 1.2vw;
-    font-weight: 300;
+    font-size: 1.3vw;
+    font-weight: 500;
     margin-top: 3vw;
-    border-radius: 4px;
-    padding: 1vw 1.7vw 1.1vw 1.7vw;
+    border-radius: 5px;
+    padding: 1vw 2.2vw 1.6vw 2.2vw;
 }
 section{
     display: flex;
@@ -105,11 +109,9 @@ section{
     flex-wrap: wrap;
 }
 .s1{
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    margin-left: 30vw;
+    align-self: auto;
     padding-top: 4vw;
     text-align: center;
 }
@@ -129,20 +131,30 @@ section{
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 2vw;
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    background-color: aqua;
+    
   }
-  
-  /* Add some padding inside the card container */
+  .divider {
+    border: none;
+    border-top: 1px solid #7B88A8;
+    margin: 1rem 0;
+}
+
   .container {
-    background-color: brown;
+    background-color: #DAE6E9;
     width: 45vw;
+    border-radius: 8px;
     height: 30vw;
     margin-left: 3vw;
-
     padding: 2vw 30px;
+  }
+  #sr{
+    border: 0vw;
+    height: 3.5vw;
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin-top: 3vw;
+    border-radius: 2px;
+    padding: 0.5vw 1.6vw 0.5vw 1.6vw;
   }
   .cardrow2{
     display: flex;
@@ -162,21 +174,40 @@ section{
     flex-wrap: wrap;
     width: 100%;
     margin-left: 30vw;
-    padding-top: 4vw;
+    padding-top: 8vw;
     text-align: center;
+    align-self: auto;
   }
   .s3{
-    display: flex;
-    justify-content: space-between;
+    width: 100%; 
+    margin-bottom: 8vw;
+    margin-left: 2vw;
   }
-  .card4{
+.card4{
     display: flex;
-    justify-content: space-around;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  .card1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 25%;
+
   }
   .container4{
-   padding: 2px 16px;
+   height: 100%;
+   margin: 22px;
+   padding: 8px;
+   text-align: center;
+   font-size: 15px;
+   color: #2D3958;
+   border-radius: 1px;
+   
+   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+
+
   }
 .CTA{
     width: 80%;
